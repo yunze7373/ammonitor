@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+
+recursive-include amazon_monitor/data *
+recursive-include amazon_monitor/templates *
+
+global-exclude *.pyc
+global-exclude __pycache__
